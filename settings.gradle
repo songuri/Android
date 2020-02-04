@@ -1,0 +1,2 @@
+include ':app', ':grammer', ':animation'
+rootProject.name='SonguriProject'

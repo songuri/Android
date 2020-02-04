@@ -1,0 +1,29 @@
+*.iml
+.gradle
+/.svn/*
+/local.properties
+/.idea/*
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# Built application files
+/**/*.apk
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+".gitignore" 31L, 338C
+
+~                                                                                 
+~                                                                                 
+~                                                                                 
+~                                 
