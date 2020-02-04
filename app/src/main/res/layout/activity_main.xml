@@ -32,6 +32,24 @@
 			android:text="ListView"
 			android:textSize="20dp" />
 
+		<Button
+			android:id="@+id/btn_go_viewpager"
+			android:layout_margin="5dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:layout_constraintTop_toBottomOf="@+id/btn_go_listview"
+			android:text="ViewPager"
+			android:textSize="20dp" />
+
+
+		<Button
+			android:id="@+id/btn_go_vertical"
+			android:layout_margin="5dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:layout_constraintTop_toBottomOf="@+id/btn_go_viewpager"
+			android:text="VerticalViewPager"
+			android:textSize="20dp" />
 
 	</androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
