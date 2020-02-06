@@ -1,13 +1,15 @@
 package com.example.songuriproject
 
+import android.app.Activity
 import android.content.Intent
+import android.graphics.Paint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.WindowManager
 import com.example.listview.ListViewTestActivitty
 import com.example.songuriproject.testpage.AnimationTestActivity
+import com.example.viewpager.vertical.VerticalViewPagerTestActivity
 import com.example.viewpager.ViewPagerTestActivity
-import com.shinhan.yjandroid.viewpager.Vertical.VerticalViewPager
-import com.shinhan.yjandroid.viewpager.Vertical.VerticalViewPagerTestActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

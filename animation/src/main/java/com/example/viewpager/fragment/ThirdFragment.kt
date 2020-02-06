@@ -1,4 +1,4 @@
-package com.shinhan.yjandroid.viewpager.fragment
+package com.example.viewpager.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

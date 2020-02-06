@@ -4,7 +4,7 @@
 
 	<application>
 		<activity android:name="com.example.viewpager.ViewPagerTestActivity"/>
-		<activity android:name="com.shinhan.yjandroid.viewpager.Vertical.VerticalViewPagerTestActivity"/>
+		<activity android:name="com.example.viewpager.vertical.VerticalViewPagerTestActivity"/>
 		<activity android:name="com.example.listview.ListViewTestActivitty" />
 	</application>
 
