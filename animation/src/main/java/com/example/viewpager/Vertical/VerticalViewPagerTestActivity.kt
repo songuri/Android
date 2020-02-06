@@ -1,5 +1,4 @@
-package com.shinhan.yjandroid.viewpager.Vertical
-
+package com.example.viewpager.vertical
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View

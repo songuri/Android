@@ -21,7 +21,7 @@ class MainRvAdapter(val context: Context, val mlist: ArrayList<Int> , val itemCl
 	}
 
 	override fun onBindViewHolder(holder: Holder, position: Int) {
-		holder?.bind(mlist[position], context)
+		holder.bind(mlist[position], context)
 	}
 
 	inner class Holder(itemView: View?, itemClick: (Int, View) -> Unit) : RecyclerView.ViewHolder(itemView!!) {

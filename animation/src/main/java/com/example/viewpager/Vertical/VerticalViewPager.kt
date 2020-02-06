@@ -1,4 +1,4 @@
-package com.shinhan.yjandroid.viewpager.Vertical
+package com.example.viewpager.vertical
 
 import android.content.Context
 import android.util.AttributeSet

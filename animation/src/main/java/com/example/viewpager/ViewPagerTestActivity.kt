@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.View
 import com.example.animation.R
 import com.example.viewpager.adapter.pagerAdapter
-import kotlinx.android.synthetic.main.activity_vertical_view_pager_test.*
+import kotlinx.android.synthetic.main.activity_view_pager_test.*
 
 class ViewPagerTestActivity : AppCompatActivity() {
 
