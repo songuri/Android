@@ -6,7 +6,9 @@ import android.graphics.Paint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import com.example.grammer.GrammerTestActivity
 import com.example.listview.ListViewTestActivitty
+import com.example.songuriproject.inflearn.InflearnMainActivity
 import com.example.songuriproject.testpage.AnimationTestActivity
 import com.example.viewpager.vertical.VerticalViewPagerTestActivity
 import com.example.viewpager.ViewPagerTestActivity
@@ -39,6 +41,15 @@ class MainActivity : AppCompatActivity() {
 
 		btn_go_vertical.setOnClickListener {
 			val intent = Intent(this, VerticalViewPagerTestActivity::class.java)
+			startActivity(intent)
+		}
+		btn_go_grammer.setOnClickListener {
+			val intent = Intent(this, GrammerTestActivity::class.java)
+			startActivity(intent)
+		}
+
+		btn_go_inflearn.setOnClickListener {
+			val intent = Intent(this, InflearnMainActivity::class.java)
 			startActivity(intent)
 		}
 	}
